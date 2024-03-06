@@ -34,18 +34,29 @@ public class AUD_To_ZAR {
         exchangeAmount.calculateExchange();
     }
 
-    /**
-     * Prompts the user to enter an amount in Australian Dollars (AUD),
-     * calculates the equivalent amount in South African Rand (ZAR) using a fixed exchange rate,
-     * and displays the result in the format "AUD<amount> is worth ZAR<converted amount>".
-     */
-    public void calculateExchange() {
-        System.out.print("Enter the amount of money in AUD: ");
-        double audAmount = scanner.nextDouble(); // User input for AUD amount
+   /**
+ * Prompts the user to enter an amount in Australian Dollars (AUD),
+ * calculates the equivalent amount in South African Rand (ZAR) using a fixed exchange rate,
+ * and displays the result in the format "AUD<amount> is worth ZAR<converted amount>".
+ */
+public void calculateExchange() {
+    boolean validInput = false;
+    double audAmount = 0.0;
 
-        double zarAmount = audAmount * EXCHANGE_RATE; // Calculate ZAR amount
-
-        // Display the result with two decimal places for AUD and four decimal places for ZAR
-        System.out.printf("AUD%.2f is worth ZAR%.4f\n", audAmount, zarAmount);
+    while (!validInput) {
+        try {
+            System.out.print("Enter the amount of money in AUD: ");
+            audAmount = scanner.nextDouble(); // User input for AUD amount
+            validInput = true;
+        } catch (Exception e) {
+            System.out.println("Please enter a valid number.");
+            scanner.next(); // Clear the invalid input
+        }
     }
+
+    double zarAmount = audAmount * EXCHANGE_RATE; // Calculate ZAR amount
+
+    // Display the result with two decimal places for AUD and four decimal places for ZAR
+    System.out.printf("AUD%.2f is worth ZAR%.4f\n", audAmount, zarAmount);
+}
 }
