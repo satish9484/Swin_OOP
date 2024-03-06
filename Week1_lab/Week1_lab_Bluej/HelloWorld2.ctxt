@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=HelloWorld2
+comment0.text=\r\n\ This\ program\ welcomes\ a\ user\ from\ a\ specified\ university.\r\n\ It\ takes\ two\ command-line\ arguments\:\ the\ user's\ name\ and\ current\ university.\r\n\ If\ the\ university\ is\ not\ "Swinburne",\ it\ prompts\ the\ user\ to\ enter\ the\ correct\ input.\r\n\ \r\n\ @author\ Satish\ Pansara\ <104310978>\r\n\ @version\ java\ version\ "21";\ Program\ version\ 1.0\r\n\ @date\ Created\ on\ 28/02/2024\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ method\ to\ execute\ the\ program.\r\n\ \r\n\ @param\ args\ Command-line\ arguments\:\ <name>\ <university>\r\n
+numComments=2

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=HelloWorld1
+comment0.text=\r\n\ This\ program\ prints\ a\ greeting\ message.\r\n\ It\ simply\ prints\ "How\ are\ you,\ <put\ your\ name\ here>?"\ to\ the\ console.\r\n\ Replace\ "<put\ your\ name\ here>"\ with\ your\ actual\ name.\r\n\ \r\n\ @author\ Satish\ Pansara\ <104310978>\r\n\ @version\ java\ version\ "21";\ Program\ version\ 1.0\r\n\ @date\ Created\ on\ 28/02/2024\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
