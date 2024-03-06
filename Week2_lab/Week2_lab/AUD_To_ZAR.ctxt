@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AUD_To_ZAR
+comment0.text=\r\n\ This\ program\ converts\ an\ amount\ in\ Australian\ Dollars\ (AUD)\ to\ South\ African\ Rand\ (ZAR)\r\n\ using\ a\ fixed\ exchange\ rate.\ The\ user\ is\ prompted\ to\ enter\ the\ amount\ in\ AUD,\r\n\ and\ the\ equivalent\ amount\ in\ ZAR\ is\ calculated\ and\ displayed.\r\n\r\n\ @author\ Satish\ Pansara\ <104310978>\r\n\ @version\ java\ version\ "21";\ Program\ version\ 1.0\r\n\ @date\ Created\ on\ 06/03/2024\r\n
+comment1.params=
+comment1.target=AUD_To_ZAR()
+comment1.text=\r\n\ Constructor\ for\ AUD_To_ZAR\ class.\r\n\ Initializes\ the\ scanner\ for\ user\ input.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Main\ method\ that\ creates\ an\ AUD_To_ZAR\ object\ and\ calls\ the\ calculateExchange\ method.\r\n
+comment3.params=
+comment3.target=void\ calculateExchange()
+comment3.text=\r\n\ Prompts\ the\ user\ to\ enter\ an\ amount\ in\ Australian\ Dollars\ (AUD),\r\n\ validates\ the\ input\ as\ a\ positive\ number,\r\n\ calculates\ the\ equivalent\ amount\ in\ South\ African\ Rand\ (ZAR)\ using\ a\ fixed\ exchange\ rate,\r\n\ and\ displays\ the\ result\ in\ the\ format\ "AUD<amount>\ is\ worth\ ZAR<converted\ amount>".\r\n
+numComments=4
