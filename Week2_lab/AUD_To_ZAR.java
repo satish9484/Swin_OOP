@@ -27,14 +27,14 @@ public class AUD_To_ZAR {
     }
 
     /**
-     * Main method that creates a exchangeAmount object and calls the calculateExchange method.
+     * Main method that creates an AUD_To_ZAR object and calls the calculateExchange method.
      */
     public static void main(String[] args) {
         AUD_To_ZAR exchangeAmount = new AUD_To_ZAR();
         exchangeAmount.calculateExchange();
     }
 
-   /**
+    /**
      * Prompts the user to enter an amount in Australian Dollars (AUD),
      * calculates the equivalent amount in South African Rand (ZAR) using a fixed exchange rate,
      * and displays the result in the format "AUD<amount> is worth ZAR<converted amount>".
